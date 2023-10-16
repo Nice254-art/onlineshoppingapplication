@@ -1,0 +1,39 @@
+body{
+    font-family: "Adobe Caslon Pro";
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    background-color: yellowgreen;
+    padding: 20px 30px;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px 5px lightgray; //horizontal offset vertical offset ,the blur radius, the spreed radius,the color off the shadow//
+}
+
+h1{
+    text-align: center;
+}
+
+label{
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="password"]
+{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover{
+    background-color: darkgoldenrod;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cu
+}
